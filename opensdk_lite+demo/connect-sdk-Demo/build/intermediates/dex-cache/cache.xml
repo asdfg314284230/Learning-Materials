@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\svn-project\opensdk_lite+demo\connect-sdk-Demo\sample\libs\open_sdk_r5990_lite.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="da51ad582d31d2151724c7df50ee869584697b38">
+        <dex dex="D:\svn-project\opensdk_lite+demo\connect-sdk-Demo\sample\build\intermediates\pre-dexed\debug\open_sdk_r5990_lite_1821d3380472c82d48db67c7484f52670cbe7a51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\svn-project\opensdk_lite+demo\connect-sdk-Demo\sample\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="612846c9857077a039b533718f72db3bc041d389">
+        <dex dex="D:\svn-project\opensdk_lite+demo\connect-sdk-Demo\sample\build\intermediates\pre-dexed\debug\android-support-v4_1a7b14965b6b41905004b93afc66faaf22524420.jar" />
+    </item>
+
+</items>

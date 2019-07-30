@@ -1,0 +1,11 @@
+一篇去除导Arr包的时候，libs中的Jar包重复:
+https://blog.csdn.net/u010665359/article/details/86155145
+一篇能让我Android跟Uniyt跑通的文章:
+https://blog.csdn.net/jiaxunnanling/article/details/90201312
+
+记录下，当前开发环境：
+
+android studio 版本: 3.4.1
+Android SDK: Android 7.1.1
+Android SDK Platform-Tools : 29.0.1
+Android SDK Tools :26.1.1

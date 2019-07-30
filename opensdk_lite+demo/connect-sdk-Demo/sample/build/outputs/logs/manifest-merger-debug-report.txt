@@ -1,0 +1,285 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:1:1-147:12
+INJECTED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:1:1-147:12
+INJECTED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:1:1-147:12
+INJECTED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:1:1-147:12
+INJECTED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:1:1-147:12
+	package
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:2:5-33
+	android:versionName
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:4:5-30
+		INJECTED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml
+		INJECTED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:3:5-28
+		INJECTED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml
+		INJECTED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml
+uses-sdk
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:8:9-38
+	android:minSdkVersion
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:7:9-35
+uses-permission#android.permission.INTERNET
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:16:5-89
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:16:22-86
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:22:22-65
+application
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:24:5-145:19
+	android:label
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:28:9-41
+	android:debuggable
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:26:3-28
+	android:icon
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:27:9-45
+	android:allowBackup
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:25:9-36
+	android:theme
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:29:9-40
+activity#com.tencent.sample.activitys.MainActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:30:9-38:20
+	android:screenOrientation
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:31:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:36:27-74
+receiver#com.tencent.sample.AppRegister
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:40:9-46:20
+	android:permission
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:42:13-71
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:41:13-58
+intent-filter#action:name:com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:43:13-45:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:44:17-100
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:44:25-97
+activity#com.tencent.open.yyb.AppbarActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:48:9-52:75
+	android:screenOrientation
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:51:13-49
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:50:13-63
+	android:theme
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:49:13-63
+activity#com.tencent.connect.avatar.ImageActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:53:9-77
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:53:19-74
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:54:9-58:75
+	android:screenOrientation
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:57:13-47
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:56:13-63
+	android:theme
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:58:13-72
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:55:13-69
+activity#com.tencent.sample.ReturnActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:59:9-62:20
+	android:label
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:61:13-58
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:60:13-43
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:63:9-74:20
+	android:launchMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:65:13-44
+	android:noHistory
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:64:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent222222
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:67:13-73:29
+action#android.intent.action.VIEW
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:68:17-69
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:68:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:69:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:70:17-78
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:70:27-75
+data
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:71:17-56
+	android:scheme
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:71:23-53
+activity#com.tencent.sample.activitys.AccountInfoActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:76:9-78:66
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:78:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:77:13-58
+activity#com.tencent.sample.activitys.QQFavoritesActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:79:9-82:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:82:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:81:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:80:13-58
+activity#com.tencent.sample.activitys.QQDatalineActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:83:9-86:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:86:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:85:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:84:13-57
+activity#com.tencent.sample.activitys.QQTroopBarActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:87:9-90:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:90:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:89:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:88:13-57
+activity#com.tencent.sample.activitys.QQShareActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:91:9-94:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:94:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:93:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:92:13-54
+activity#com.tencent.sample.activitys.QZoneShareActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:95:9-98:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:98:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:97:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:96:13-57
+activity#com.tencent.sample.activitys.QzonePicturesActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:99:9-101:66
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:101:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:100:13-60
+activity#com.tencent.sample.activitys.WPAActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:107:9-111:52
+	android:screenOrientation
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:111:13-49
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:110:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:109:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:108:13-50
+activity#com.tencent.sample.activitys.OtherApiActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:112:9-115:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:115:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:114:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:113:13-55
+activity#com.tencent.sample.activitys.SocialApiActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:116:9-119:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:119:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:118:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:117:13-56
+activity#com.tencent.sample.activitys.SocialAppbarActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:120:9-123:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:123:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:122:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:121:13-59
+activity#com.tencent.sample.activitys.AvatarActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:124:9-127:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:127:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:126:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:125:13-53
+activity#com.tencent.sample.activitys.QQGroupActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:129:9-133:63
+	android:screenOrientation
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:132:13-49
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:133:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:131:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:130:13-54
+activity#com.tencent.sample.activitys.GameLogicActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:134:9-138:63
+	android:screenOrientation
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:137:13-49
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:138:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:136:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:135:13-56
+activity#com.tencent.sample.activitys.SharePrizeActivity
+ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:141:9-144:63
+	android:windowSoftInputMode
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:144:13-60
+	android:configChanges
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:143:13-63
+	android:name
+		ADDED from D:\svn-code\opensdk_lite+demo\connect-sdk-Demo\sample\AndroidManifest.xml:142:13-57

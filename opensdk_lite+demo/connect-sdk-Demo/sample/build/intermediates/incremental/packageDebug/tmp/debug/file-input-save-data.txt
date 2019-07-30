@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Aug 08 13:07:35 CST 2018
+0.baseType=DIRECTORY
+0.base=D\:\\svn-code\\opensdk_lite+demo\\connect-sdk-Demo\\sample\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,4 @@
+#Wed Aug 08 13:07:35 CST 2018
+base.0=D\:\\svn-code\\opensdk_lite+demo\\connect-sdk-Demo\\sample\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
