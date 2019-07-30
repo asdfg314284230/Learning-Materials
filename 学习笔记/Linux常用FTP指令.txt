@@ -1,5 +1,5 @@
-systemctl start vsftpd.service   Æô¶¯FTP·şÎñ
+ï»¿systemctl start vsftpd.service   å¯åŠ¨FTPæœåŠ¡
 
-systemctl status vsftpd.service ²é¿´FTP·şÎñ×´Ì¬
+systemctl status vsftpd.service æŸ¥çœ‹FTPæœåŠ¡çŠ¶æ€
 
-chown -R bbspftp2 /home/bbsp/Document/data/credit  ÉèÖÃFTPÈ¨ÏŞ
+chown -R bbspftp2 /home/bbsp/Document/data/credit  è®¾ç½®FTPæƒé™

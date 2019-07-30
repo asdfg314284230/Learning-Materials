@@ -1,8 +1,8 @@
-socket.open(address, port)               --ĞÂ½¨Á¢Ò»¸öTCPÁ¬½Ó
-socket.start(id)             --Æô¶¯¼àÌı
-socket.read(id)             --½ÓÊÜ¿Í»§¶Ë·¢ËÍµÄÏûÏ¢
-socket.write(id, str)       --Ïñ¿Í»§¶Ë·¢ËÍÏûÏ¢
+ï»¿socket.open(address, port)               --æ–°å»ºç«‹ä¸€ä¸ªTCPè¿æ¥
+socket.start(id)             --å¯åŠ¨ç›‘å¬
+socket.read(id)             --æ¥å—å®¢æˆ·ç«¯å‘é€çš„æ¶ˆæ¯
+socket.write(id, str)       --åƒå®¢æˆ·ç«¯å‘é€æ¶ˆæ¯
 
-socket.listen(id, port)   --¼àÌı¶Ë¿Ú
-socket.abandon(id)     --·şÎñ¿ªÊ¼·½Ê½
-socket.close(id)          --¹Ø±ÕÁ¬½Ó
+socket.listen(id, port)   --ç›‘å¬ç«¯å£
+socket.abandon(id)     --æœåŠ¡å¼€å§‹æ–¹å¼
+socket.close(id)          --å…³é—­è¿æ¥

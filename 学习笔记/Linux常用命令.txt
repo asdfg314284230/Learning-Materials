@@ -1,22 +1,22 @@
-nc -lp 22 &    ���Ŷ˿�
+﻿nc -lp 22 &    开放端口
 
-netstat -an | grep 22  �鿴ָ���˿��Ƿ񿪷�
+netstat -an | grep 22  查看指定端口是否开放
 
 chown -R keesail:keesail ./local 
-ָ��localĿ¼������Ϊkeesail
+指定local目录所有者为keesail
 
-chown -R hadoop:hadoop /usr/hadoop/  ����Ȩ��
+chown -R hadoop:hadoop /usr/hadoop/  分配权限
 
-Ҫ����vi�� Log��ʱ�� ��Log �ر���ʱ�򣬲�������� ����ͨ��Vi ��Log�ļ�
+要查找vi的 Log的时候 当Log 特别多的时候，不方便查找 可以通过Vi 打开Log文件
 
-��log�ļ�������������
+打开log文件，调出命令行
 
-��!!!!!!! ���ǴӺ���ǰ�� 
-/ !!!!!! ���Ǵ�ǰ������
+？!!!!!!! 这是从后往前找 
+/ !!!!!! 这是从前往后找
 
-N �����ϲ���
-:set nu ����ʾ����
-:q! ���˳�vi
+N 是向上查找
+:set nu 是显示行数
+:q! 是退出vi
 
 
 

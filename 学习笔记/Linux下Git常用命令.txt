@@ -1,19 +1,19 @@
-git push origin master -u   -- ÍÆËÍ
+ï»¿git push origin master -u   -- æ¨é€
 
-git init -- ÉèÖÃµ±Ç°Ä¿Â¼Îª²Ö¿â
+git init -- è®¾ç½®å½“å‰ç›®å½•ä¸ºä»“åº“
 
-git add ÎÄ¼şÃû(.´ú±íÈ«²¿) -- Ìí¼ÓÎÄ¼ş
+git add æ–‡ä»¶å(.ä»£è¡¨å…¨éƒ¨) -- æ·»åŠ æ–‡ä»¶
 
-git commit -m "ÃèÊö" ½«Ôİ´æÇøÌá½»µ½²Ö¿â
+git commit -m "æè¿°" å°†æš‚å­˜åŒºæäº¤åˆ°ä»“åº“
 
-git status  ------²éÑ¯²Ö¿â×´Ì¬
+git status  ------æŸ¥è¯¢ä»“åº“çŠ¶æ€
 
-git remote add origin ²Ö¿âµØÖ·  --- ÉèÖÃÔ¶³Ì²Ö¿â
+git remote add origin ä»“åº“åœ°å€  --- è®¾ç½®è¿œç¨‹ä»“åº“
 
-git fetch origin dev -- À­È¡Ô¶³Ì²Ö¿âdevµØÖ·µ½±¾µØ
+git fetch origin dev -- æ‹‰å–è¿œç¨‹ä»“åº“devåœ°å€åˆ°æœ¬åœ°
 
-git checkout -b dev -- ÔÚ±¾µØ´´½¨·ÖÖ§²¢ÇÒÇĞ»»µ½¸Ã·ÖÖ§
+git checkout -b dev -- åœ¨æœ¬åœ°åˆ›å»ºåˆ†æ”¯å¹¶ä¸”åˆ‡æ¢åˆ°è¯¥åˆ†æ”¯
 
-git submodule init -- ³õÊ¼»¯×ÓÄ£¿é
+git submodule init -- åˆå§‹åŒ–å­æ¨¡å—
 
-git submodule update -- ¸üĞÂ×ÓÄ£¿é
+git submodule update -- æ›´æ–°å­æ¨¡å—
