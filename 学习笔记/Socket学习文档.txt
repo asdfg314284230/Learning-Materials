@@ -1,0 +1,8 @@
+socket.open(address, port)               --新建立一个TCP连接
+socket.start(id)             --启动监听
+socket.read(id)             --接受客户端发送的消息
+socket.write(id, str)       --像客户端发送消息
+
+socket.listen(id, port)   --监听端口
+socket.abandon(id)     --服务开始方式
+socket.close(id)          --关闭连接

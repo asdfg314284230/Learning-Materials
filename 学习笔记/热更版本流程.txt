@@ -1,0 +1,15 @@
+热更流程详解：(老胡相传)
+只更新代码不更新AB流程:
+1.先new_branch.bat。拉取下git上最新，记得编辑看一下
+2.记得先提版本version.lua手动提一个版本
+3.pack_lua.bat。 出代码版本包，记得编辑查看一下
+4.去对应分支下的ios尾椎(因为代码版本只会出在ios尾缀里)，路径wawa31/tool/dest下game_confingxxxxx版本
+5.上传到OSS远端服务器,路径是wawa31/pkg
+6.去pp/other/online_param/test_android下调整在线参数,然后运行下0001.bat
+
+
+更AB流程
+1.先拉取分支
+2.提version.lua的一个版本
+3.找到对应的代码包，提交到OSS
+4.去pp/other/online_param/test_android下调整在线参数,然后运行下0001.bat

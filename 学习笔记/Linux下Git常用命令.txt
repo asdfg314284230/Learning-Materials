@@ -1,0 +1,19 @@
+git push origin master -u   -- 推送
+
+git init -- 设置当前目录为仓库
+
+git add 文件名(.代表全部) -- 添加文件
+
+git commit -m "描述" 将暂存区提交到仓库
+
+git status  ------查询仓库状态
+
+git remote add origin 仓库地址  --- 设置远程仓库
+
+git fetch origin dev -- 拉取远程仓库dev地址到本地
+
+git checkout -b dev -- 在本地创建分支并且切换到该分支
+
+git submodule init -- 初始化子模块
+
+git submodule update -- 更新子模块

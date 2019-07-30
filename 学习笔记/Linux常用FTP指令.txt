@@ -1,0 +1,5 @@
+systemctl start vsftpd.service   启动FTP服务
+
+systemctl status vsftpd.service 查看FTP服务状态
+
+chown -R bbspftp2 /home/bbsp/Document/data/credit  设置FTP权限
