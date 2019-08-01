@@ -3,9 +3,9 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="15" />
+    <!--<uses-sdk-->
+        <!--android:minSdkVersion="10"-->
+        <!--android:targetSdkVersion="15" />-->
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -23,7 +23,6 @@
 
     <application
         android:allowBackup="false"
-		android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
@@ -37,20 +36,7 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name="com.tencent.sample.AppRegister"
-            android:permission="com.tencent.mm.plugin.permission.SEND" >
-            <intent-filter>
-                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
-            </intent-filter>
-        </receiver>
         <!-- 应用吧 -->
-        <activity
-            android:name="com.tencent.open.yyb.AppbarActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity android:name="com.tencent.connect.avatar.ImageActivity" />
         <activity
             android:name="com.tencent.connect.common.AssistActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -76,56 +62,7 @@
         <activity
             android:name=".activitys.AccountInfoActivity"
             android:configChanges="orientation|keyboardHidden" />
-        <activity
-            android:name=".activitys.QQFavoritesActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
-            android:name=".activitys.QQDatalineActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
-            android:name=".activitys.QQTroopBarActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
-            android:name=".activitys.QQShareActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
-            android:name=".activitys.QZoneShareActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
-            android:name=".activitys.QzonePicturesActivity"
-            android:configChanges="orientation|keyboardHidden" />
-        <!-- zivon add end -->
 
-
-        <!-- stev add start -->
-
-        <activity
-            android:name=".activitys.WPAActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activitys.OtherApiActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
-            android:name=".activitys.SocialApiActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
-            android:name=".activitys.SocialAppbarActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
-            android:name=".activitys.AvatarActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        
         <activity
             android:name=".activitys.QQGroupActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -137,11 +74,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- stev add end -->
-        
-        <activity
-            android:name=".activitys.SharePrizeActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden" />
+
     </application>
 
 </manifest>
