@@ -35,11 +35,13 @@ public class MainActivity extends UnityPlayerActivity {
         }
     }
 
+    /** QQ登录第二步：存储token和openid */
     public static void initOpenidAndToken(JSONObject jsonObject) {
         try {
             String token = jsonObject.getString(Constants.PARAM_ACCESS_TOKEN);
             String expires = jsonObject.getString(Constants.PARAM_EXPIRES_IN);
             String openId = jsonObject.getString(Constants.PARAM_OPEN_ID);
+            // 做判空，存储相对应的数据
             if (!TextUtils.isEmpty(token) && !TextUtils.isEmpty(expires)
                     && !TextUtils.isEmpty(openId)) {
                 mTencent.setAccessToken(token, expires);
@@ -49,12 +51,32 @@ public class MainActivity extends UnityPlayerActivity {
         }
     }
 
+    // 获取用户信息返回给Unity
+    public void updataUserInfo(){
+
+        // 判空处理
+        if(mTencent != null && mTencent.isSessionValid()){
+            // 回调注册
+            IUiListener infoListener = new BaseUiListener(){
+
+                public void onComplete(Object response){
+                    if(response != null){
+                        // 发送给Unity 得到QQ玩家数据
+
+                    }
+                }
+
+            };
+        }
+    }
 
 
+    // 回调实例回调调用解析函数
     IUiListener loginListener = new BaseUiListener() {
         @Override
         protected void doComplete(JSONObject values) {
             initOpenidAndToken(values);
+            updataUserInfo();
         }
     };
 
