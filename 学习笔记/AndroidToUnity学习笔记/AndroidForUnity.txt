@@ -6,8 +6,10 @@ https://blog.csdn.net/jiaxunnanling/article/details/90201312
 https://blog.csdn.net/Move_Cat/article/details/81381835
 
 
-1:踩坑记录:
-如果遇到安装APK时有两个Icon的情况，请查看下包名是否一样，把打好的APK放到AndroidStudio 能看到配置清单文件且不是乱码
+踩坑记录:
+1.如果遇到安装APK时有两个Icon的情况，请查看下包名是否一样，把打好的APK放到AndroidStudio 能看到配置清单文件且不是乱码
+2.遇到打包合并配置清单问题，请查看详情报错。
+3.如果遇到导出Arr包文件中有许多配置文件，可以查看当前Demo的项目工程中，删除了一些无用文件，根据第三篇文章操作就行。
 
 
 记录下，当前开发环境：
