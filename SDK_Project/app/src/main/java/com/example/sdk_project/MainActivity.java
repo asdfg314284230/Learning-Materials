@@ -51,8 +51,25 @@ public class MainActivity extends UnityPlayerActivity {
                 UnityPlayer.UnitySendMessage("AndroidSDKManger", "LoginInfo", values.toString());
             }
             initOpenidAndToken(values);
-            updataUserInfo();
         }
+
+    };
+
+
+    // 回调注册
+    IUiListener userInfoListener   = new BaseUiListener(){
+
+        public void onComplete(Object o){
+            if(o != null){
+                JSONObject jo = (JSONObject) o;
+                // 发送给Unity 得到QQ玩家数据
+                UnityPlayer.UnitySendMessage("AndroidSDKManger", "UserInfo", jo.toString());
+            }
+            else{
+                UnityPlayer.UnitySendMessage("AndroidSDKManger", "UserInfo", "获取数据信息失败");
+            }
+        }
+
     };
 
     /** QQ登录第二步：存储token和openid */
@@ -70,26 +87,11 @@ public class MainActivity extends UnityPlayerActivity {
         } catch(Exception e) {
             System.out.print("这明显报错了");
         }
+
+
     }
 
-    // 进一步获取用户信息返回给Unity(这里跟上一步获取的信息不同)
-    public void updataUserInfo(){
 
-        // 判空处理
-        if(mTencent != null && mTencent.isSessionValid()){
-            // 回调注册
-            IUiListener infoListener = new BaseUiListener(){
-
-                public void onComplete(Object response){
-                    if(response != null){
-                        // 发送给Unity 得到QQ玩家数据
-//                        UnityPlayer.UnitySendMessage("AndroidSDKManger", "LoginInfo", response.toString());
-                    }
-                }
-
-            };
-        }
-    }
 
     @Override  //这段代码非常重要，不加的话无法获取回调
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

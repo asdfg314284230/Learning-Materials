@@ -235,8 +235,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TestAndroid.cs" />
-    <Compile Include="Assets\TestButton.cs" />
+    <Compile Include="Assets\Scripts\MessageScripts\Callback.cs" />
+    <Compile Include="Assets\Scripts\MessageScripts\Messenger.cs" />
+    <Compile Include="Assets\Scripts\MessageScripts\Msg_Define.cs" />
+    <Compile Include="Assets\Scripts\Singleton\UnitySingleton.cs" />
+    <Compile Include="Assets\Scripts\TestAndroid.cs" />
+    <Compile Include="Assets\Scripts\TestButton.cs" />
+    <Compile Include="Assets\SDKManger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
