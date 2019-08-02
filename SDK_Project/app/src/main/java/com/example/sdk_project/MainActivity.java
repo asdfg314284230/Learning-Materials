@@ -4,11 +4,13 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.tencent.connect.common.Constants;
 import com.tencent.tauth.IUiListener;
 import com.tencent.tauth.Tencent;
 import com.tencent.tauth.UiError;
+import com.unity3d.player.UnityPlayer;
 import com.unity3d.player.UnityPlayerActivity;
 
 import org.json.JSONObject;
@@ -28,12 +30,30 @@ public class MainActivity extends UnityPlayerActivity {
     //登录方法
     public void LoginAndSend()
     {//定义一个对象，里面的第一个参数是自己在QQ开放平台上申请的APPID。
+        Log.d("","尝试登陆");
         mTencent = Tencent.createInstance("1109218679",this.getApplicationContext());
         if (!mTencent.isSessionValid())
         {
             mTencent.login(this, "all", loginListener);
         }
     }
+
+
+
+    // 登陆成功回调实例回调调用解析函数
+    IUiListener loginListener = new BaseUiListener() {
+        @Override
+        protected void doComplete(JSONObject values) {
+            if(null != values){
+                System.out.print("尝试给Unity发送消息");
+                Log.d("","尝试给Unity发送消息");
+                // 发送给Unity 得到QQ玩家数据
+                UnityPlayer.UnitySendMessage("AndroidSDKManger", "LoginInfo", values.toString());
+            }
+            initOpenidAndToken(values);
+            updataUserInfo();
+        }
+    };
 
     /** QQ登录第二步：存储token和openid */
     public static void initOpenidAndToken(JSONObject jsonObject) {
@@ -48,10 +68,11 @@ public class MainActivity extends UnityPlayerActivity {
                 mTencent.setOpenId(openId);
             }
         } catch(Exception e) {
+            System.out.print("这明显报错了");
         }
     }
 
-    // 获取用户信息返回给Unity
+    // 进一步获取用户信息返回给Unity(这里跟上一步获取的信息不同)
     public void updataUserInfo(){
 
         // 判空处理
@@ -62,24 +83,13 @@ public class MainActivity extends UnityPlayerActivity {
                 public void onComplete(Object response){
                     if(response != null){
                         // 发送给Unity 得到QQ玩家数据
-
+//                        UnityPlayer.UnitySendMessage("AndroidSDKManger", "LoginInfo", response.toString());
                     }
                 }
 
             };
         }
     }
-
-
-    // 回调实例回调调用解析函数
-    IUiListener loginListener = new BaseUiListener() {
-        @Override
-        protected void doComplete(JSONObject values) {
-            initOpenidAndToken(values);
-            updataUserInfo();
-        }
-    };
-
 
     @Override  //这段代码非常重要，不加的话无法获取回调
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -124,5 +134,7 @@ public class MainActivity extends UnityPlayerActivity {
 
         }
     }
+
+
 
 }
