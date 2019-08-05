@@ -34,7 +34,12 @@ public class MainActivity extends UnityPlayerActivity {
         mTencent = Tencent.createInstance("1109218679",this.getApplicationContext());
         if (!mTencent.isSessionValid())
         {
-            mTencent.login(this, "all", loginListener);
+//            if(!mQrCk.isChecked()){
+                // 尝试拉取扫码  你妈的，这官方文档我是真的服，在接QQSDK我他妈
+                mTencent.login(this, "all", loginListener,true);
+
+//            }
+
         }
     }
 
