@@ -1,0 +1,2 @@
+reward配置表中的reward_002的值是空字符串
+reward配置表中的reward_001的值是空字符串
