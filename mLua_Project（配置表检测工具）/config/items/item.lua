@@ -1,6 +1,3 @@
-print("item表被加载")
-
-
 return {
 	["item_0001"] = {
 		["id"] = "item_0001",

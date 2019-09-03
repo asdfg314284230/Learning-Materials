@@ -1,0 +1,1 @@
+.\function\check_test.lua:58: attempt to index global 'b' (a nil value)

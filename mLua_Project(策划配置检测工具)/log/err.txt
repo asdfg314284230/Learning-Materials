@@ -1,1 +1,0 @@
-...sers\Administrator\Desktop\mLua_Project\lua_test.lua:61: attempt to compare number with nil

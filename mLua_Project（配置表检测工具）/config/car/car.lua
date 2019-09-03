@@ -1,5 +1,3 @@
-
-print("car表被加载")
 return {
     ["car_0001"] = {
 		["id"] = "item_0001",
@@ -12,8 +10,8 @@ return {
 		["introduce"] = "很长很长的描述很长很长的描述很长很长的描述很长很长的描述",
 		["source"] = "item_0001",
 		["require"] = {
-			[1] = "sell",
-			[2] = "compose",
+			[1] = "32132131",
+			[2] = "13123213",
 		},
 	},
 	["car_0002"] = {
@@ -34,7 +32,7 @@ return {
 	["car_0003"] = {
 		["id"] = "item_0003",
 		["name"] = "玄铁石",
-		["lv"] = 3,
+		["lv"] = 5,
 		["type"] = "item",
 		["sub_type"] = "material",
 		["analytics_type"] = "analytics_item_0003",
