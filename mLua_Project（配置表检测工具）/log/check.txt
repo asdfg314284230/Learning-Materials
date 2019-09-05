@@ -1,2 +1,0 @@
-reward配置表中的reward_001的值是空字符串
-配置表reward/id值为空,请检查
